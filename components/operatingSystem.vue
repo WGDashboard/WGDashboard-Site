@@ -10,7 +10,7 @@
 		<div class="row g-2">
 			<div class="col-sm-12">
 				<a
-					href="https://donaldzou.dev/WGDashboard-Documentation/install.html#option-2-install-wgdashboard-with-a-command"
+					href="https://docs.wgdashboard.dev/install.html#option-2-install-wgdashboard-with-a-command"
 					target="_blank"
 					class="card rounded-4 text-center shadow">
 					<div class="card-body p-4">

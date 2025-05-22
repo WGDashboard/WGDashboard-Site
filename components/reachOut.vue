@@ -65,7 +65,7 @@
 		<h4 class="fw-normal">
 			or use the
 		</h4>
-		<a href="https://donaldzou.dev/WGDashboard-Documentation/index_topic.html"
+		<a href="https://docs.wgdashboard.dev/index_topic.html"
 		   target="_blank" class="card rounded-4 shadow">
 			<div class="card-body text-center p-4">
 				<h1>

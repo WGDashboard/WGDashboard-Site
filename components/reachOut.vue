@@ -3,7 +3,7 @@
 </script>
 
 <template>
-	<div class="container d-flex flex-column gap-4">
+	<div class="container d-flex flex-column gap-4 blurIn">
 		<h1 class="display-5 fw-bold">Got questions, <br>or just want to chat?</h1>
 		<h4 class="fw-normal">
 			Reach us on

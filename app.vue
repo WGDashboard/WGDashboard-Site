@@ -13,12 +13,13 @@ useSeoMeta({
 })
 </script>
 <template>
-	<div data-bs-theme="dark" class="app animate__animated animate__fadeIn animate__slow">
+	<div data-bs-theme="dark" class="app">
 
 		<Navbar></Navbar>
-		<div class="d-flex flex-column gap-5 overflow-y-hidden">
-			<div class="container">
-				<div class="mb-5 d-flex flex-column align-items-center text-center d-flex flex-column gap-3" style="margin-top: 8vh">
+		<div class="d-flex flex-column gap-5 overflow-y-hidden contentContainer">
+			<div class="container blurIn">
+				<div class="mb-5 d-flex flex-column align-items-center text-center d-flex flex-column gap-3"
+				     style="margin-top: 8vh">
 					<h1 class="display-1 fw-bold wgdLogo mb-0">
 						WGDashboard
 					</h1>
@@ -47,12 +48,12 @@ useSeoMeta({
 								v-if="isLoaded"
 								v-bind="imgAttrs"
 								:src="src"
-								class=""
+								class="blurIn"
 								alt="">
 							<div
 								v-else
 								class="w-100 rounded-4 border border-1"
-								style="padding-top: 56.25%;"
+								style="padding-top: 56.22%;"
 							>
 							</div>
 						</transition>
@@ -72,7 +73,7 @@ useSeoMeta({
 				</div>
 			</div>
 			<hr>
-			<div class="container d-flex flex-column gap-4">
+			<div class="container d-flex flex-column gap-4 blurIn">
 				<h1 class="display-5 fw-bold">So,<br>what is WGDashboard?</h1>
 				<h4 class="fw-normal">
 					WGDashboard is a simple and easy-to-use dashboard to manager your <strong>WireGuard & AmneziaWG VPN</strong>.

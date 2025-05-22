@@ -11,7 +11,7 @@
 		<div class="row g-2">
 			<div class="col-sm">
 				<a href="https://discord.gg/72TwzjeuWm"
-				   target="_blank" class="card rounded-4">
+				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-discord"></i>
@@ -24,7 +24,7 @@
 			</div>
 			<div class="col-sm">
 				<a href="https://github.com/donaldzou/WGDashboard/issues/new/choose"
-				   target="_blank" class="card rounded-4">
+				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-github"></i>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="col-sm">
 				<a href="https://www.reddit.com/r/WGDashboard/"
-				   target="_blank" class="card rounded-4">
+				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-reddit"></i>
@@ -50,7 +50,7 @@
 			</div>
 			<div class="col-sm">
 				<a href="https://app.element.io/#/room/#wgd:matrix.org"
-				   target="_blank" class="card rounded-4">
+				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-chat-fill"></i>
@@ -66,7 +66,7 @@
 			or use the
 		</h4>
 		<a href="https://donaldzou.dev/WGDashboard-Documentation/index_topic.html"
-		   target="_blank" class="card rounded-4">
+		   target="_blank" class="card rounded-4 shadow">
 			<div class="card-body text-center p-4">
 				<h1>
 					<i class="bi bi-book-fill"></i>

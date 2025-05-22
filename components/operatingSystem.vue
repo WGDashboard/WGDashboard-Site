@@ -12,7 +12,7 @@
 				<a
 					href="https://donaldzou.dev/WGDashboard-Documentation/install.html#option-2-install-wgdashboard-with-a-command"
 					target="_blank"
-					class="card rounded-4 text-center">
+					class="card rounded-4 text-center shadow">
 					<div class="card-body p-4">
 						<h1>
 							<i class="bi bi-tux"></i>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="col-sm">
 				<a href="https://github.com/donaldzou/WGDashboard/blob/main/docker/README.md"
-				   target="_blank" class="card rounded-4">
+				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-cloud-fill"></i>
@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-sm">
 				<a href="https://community-scripts.github.io/ProxmoxVE/scripts?id=wireguard"
-				   target="_blank" class="card rounded-4">
+				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-server"></i>

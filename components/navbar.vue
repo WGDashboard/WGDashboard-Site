@@ -13,7 +13,7 @@
 					<a class="nav-link"
 					   target="_blank"
 					   aria-label="Documentation"
-					   href="https://github.com/donaldzou/WGDashboard">
+					   href="https://donaldzou.dev/WGDashboard-Documentation/index_topic.html">
 						<i class="bi bi-book-fill me-2"></i>
 						<span>Documentation</span>
 					</a>

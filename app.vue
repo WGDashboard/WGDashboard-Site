@@ -3,6 +3,14 @@ import 'assets/css/main.css'
 import Features from "~/components/features.vue";
 import OperatingSystem from "~/components/operatingSystem.vue";
 import ReachOut from "~/components/reachOut.vue";
+
+useSeoMeta({
+	title: 'WGDashboard | Simple dashboard to manage WireGuard VPN',
+	ogTitle: 'WGDashboard | Simple dashboard to manage WireGuard VPN',
+	description: 'Manage your WireGuard VPN with ease',
+	ogDescription: 'Manage your WireGuard VPN with ease',
+	ogImage: 'https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Posters/Social-Preview.png',
+})
 </script>
 <template>
 	<div data-bs-theme="dark" class="app animate__animated animate__fadeIn animate__slow">

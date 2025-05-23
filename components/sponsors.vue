@@ -13,7 +13,7 @@ fetch("/api/sponsors").then(res => res.json()).then(res => {
 			<img
 				alt="DigitalOcean Logo"
 				width="300px"
-				src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PNG/DO_Logo_Horizontal_Blue.png">
+				src="/DO_Logo_Horizontal_Blue.png">
 		</a>
 		<h4 class="fw-normal">
 			and

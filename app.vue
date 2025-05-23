@@ -5,6 +5,8 @@ import OperatingSystem from "~/components/operatingSystem.vue";
 import ReachOut from "~/components/reachOut.vue";
 import Sponsors from "~/components/sponsors.vue";
 
+
+
 useSeoMeta({
 	title: 'WGDashboard | Simple dashboard to manage WireGuard VPN',
 	ogTitle: 'WGDashboard | Simple dashboard to manage WireGuard VPN',
@@ -15,10 +17,17 @@ useSeoMeta({
 
 import {store} from "~/stores/store.js";
 import Modal from "~/components/modal.vue";
+import ImageSlide from "~/components/imageSlide.vue";
 
 const s = store();
 
 onMounted(() => {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-BXCJGLTK17');
+
 	document.querySelectorAll('.openInModal').forEach(x => {
 		x.addEventListener('click', (e) => {
 			if (x.attributes.href?.value){
@@ -56,27 +65,8 @@ onMounted(() => {
 					</a>
 				</div>
 				<div class="mb-5 position-relative">
-					<NuxtImg
-						class="w-100 rounded-4"
-						v-slot="{ src, isLoaded, imgAttrs }"
-						preload
-						:custom="true"
-						src="https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/index.png" alt="WGDashboard Index Screenshot">
-						<transition name="fade" >
-							<img
-								v-if="isLoaded"
-								v-bind="imgAttrs"
-								:src="src"
-								class="blurIn"
-								alt="">
-							<div
-								v-else
-								class="w-100 rounded-4 border border-1"
-								style="padding-top: 56.22%;"
-							>
-							</div>
-						</transition>
-					</NuxtImg>
+					<ImageSlide></ImageSlide>
+
 				</div>
 
 				<div class="d-flex align-items-center gap-2 flex-column flex-sm-row">

@@ -12,6 +12,11 @@ export default defineNuxtConfig({
             htmlAttrs: {
                 lang: 'en',
             },
+            script: [
+                {
+                    src: "https://www.googletagmanager.com/gtag/js?id=G-BXCJGLTK17"
+                }
+            ],
             link: [
                 { rel: 'icon', type: 'image/png', href: 'https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Logos/Logo-2-Rounded-128x128.png' },
             ],

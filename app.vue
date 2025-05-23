@@ -3,6 +3,7 @@ import 'assets/css/main.css'
 import Features from "~/components/features.vue";
 import OperatingSystem from "~/components/operatingSystem.vue";
 import ReachOut from "~/components/reachOut.vue";
+import Sponsors from "~/components/sponsors.vue";
 
 useSeoMeta({
 	title: 'WGDashboard | Simple dashboard to manage WireGuard VPN',
@@ -14,7 +15,6 @@ useSeoMeta({
 </script>
 <template>
 	<div data-bs-theme="dark" class="app">
-
 		<Navbar></Navbar>
 		<div class="d-flex flex-column gap-5 overflow-y-hidden contentContainer">
 			<div class="container blurIn">
@@ -83,10 +83,13 @@ useSeoMeta({
 				<hr>
 				<OperatingSystem></OperatingSystem>
 			</div>
+
+			<hr>
+			<Sponsors></Sponsors>
 			<hr>
 			<ReachOut></ReachOut>
-			<div class="bg-body-tertiary py-3">
-				<div class="container">
+			<div class="py-3">
+				<div class="container text-center">
 					<small class="text-muted">2020 - 2025  &copy;  WGDashboard</small>
 				</div>
 			</div>

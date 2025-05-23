@@ -80,6 +80,7 @@ a{
 
 .card:hover{
     border-color: #ffffff;
+    /*transform: scale(1.01);*/
 }
 
 @keyframes blurIn {

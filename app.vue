@@ -65,7 +65,7 @@ useSeoMeta({
 						Want to try it out before install?<br>
 						<small class="text-muted">Username and password as <code>admin</code></small>
 					</h5>
-					<a href="https://wgd-demo.donaldzou.dev"
+					<a href="https://demo.wgdashboard.dev"
 					   target="_blank"
 					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow">
 						Access Demo

@@ -12,7 +12,7 @@
 				<a
 					href="https://docs.wgdashboard.dev/install.html#option-2-install-wgdashboard-with-a-command"
 					target="_blank"
-					class="card rounded-4 text-center shadow">
+					class="card rounded-4 text-center shadow openInModal">
 					<div class="card-body p-4">
 						<h1>
 							<i class="bi bi-tux"></i>

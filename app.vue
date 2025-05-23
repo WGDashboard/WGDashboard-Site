@@ -12,9 +12,26 @@ useSeoMeta({
 	ogDescription: 'Manage your WireGuard VPN with ease',
 	ogImage: 'https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Posters/Social-Preview.png',
 })
+
+import {store} from "~/stores/store.js";
+import Modal from "~/components/modal.vue";
+
+const s = store();
+
+onMounted(() => {
+	document.querySelectorAll('.openInModal').forEach(x => {
+		x.addEventListener('click', (e) => {
+			if (x.attributes.href?.value){
+				e.preventDefault();
+				s.modalSrc = x.attributes.href.value;
+				s.modal = true
+			}
+		})
+	})
+})
 </script>
 <template>
-	<div data-bs-theme="dark" class="app">
+	<div data-bs-theme="dark" class="app position-relative">
 		<Navbar></Navbar>
 		<div class="d-flex flex-column gap-5 overflow-y-hidden contentContainer">
 			<div class="container blurIn">
@@ -31,7 +48,9 @@ useSeoMeta({
 						<img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fwgdashboard.dev&label=Visitors&icon=eye-fill&color=%23198754" alt="Visitor Count">
 					</a>
 
-					<a target="_blank" href="https://docs.wgdashboard.dev/install.html" class="btn bg-primary-subtle rounded-4 border-primary-subtle px-4 py-3 shadow fw-bold">
+					<a target="_blank"
+
+					   href="https://docs.wgdashboard.dev/install.html" class="btn bg-primary-subtle rounded-4 border-primary-subtle px-4 py-3 shadow fw-bold openInModal">
 						<i class="bi bi-person-walking me-2"></i>
 						Get Started
 					</a>
@@ -94,20 +113,22 @@ useSeoMeta({
 				</div>
 			</div>
 		</div>
+		<Transition name="fade">
+			<Modal v-if="s.modal"></Modal>
+		</Transition>
 	</div>
 </template>
 
 <style>
 .fade-enter-active,
 .fade-leave-active {
-	transition: opacity 1s ease;
-
+	transition: all 1s ease;
 }
 
 .fade-enter-from,
 .fade-leave-to {
-	position: absolute;
 	opacity: 0;
+	transform: scale(0.9);
 	filter: blur(8px);
 }
 </style>

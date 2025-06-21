@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 const githubSponsors = ref([])
-fetch("/api/sponsors").then(res => res.json()).then(res => {
+$fetch("/api/sponsors").then(res => {
 	githubSponsors.value = res.data.user.sponsorshipsAsMaintainer.nodes
 })
 </script>

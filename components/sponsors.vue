@@ -1,5 +1,7 @@
 <script setup lang="ts">
 
+import Stars from "~/components/stars.vue";
+
 const githubSponsors = ref([])
 $fetch("/api/sponsors").then(res => {
 	githubSponsors.value = res.data.user.sponsorshipsAsMaintainer.nodes
@@ -32,6 +34,7 @@ $fetch("/api/sponsors").then(res => {
 		<h4 class="fw-normal">
 			from GitHub. <strong>Thank you all!</strong>
 		</h4>
+
 	</div>
 </template>
 

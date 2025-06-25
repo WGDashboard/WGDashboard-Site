@@ -4,8 +4,14 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     modules: [
         '@nuxt/image',
-        '@pinia/nuxt'
+        '@pinia/nuxt',
+        'nuxt-cron'
     ],
+    cron: {
+        runOnInit: true,
+        timeZone: 'America/Toronto',
+        jobsDir: 'cron'
+    },
     app: {
         head: {
             title: "WGDashboard | Simple dashboard to manage WireGuard VPN",
@@ -22,5 +28,13 @@ export default defineNuxtConfig({
                 { rel: 'icon', type: 'image/png', href: 'https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Logos/Logo-2-Rounded-128x128.png' },
             ],
         },
+    },
+    nitro: {
+        storage: {
+            local: {
+                driver: 'fs',
+                base: './.data/db'
+            }
+        }
     }
 })

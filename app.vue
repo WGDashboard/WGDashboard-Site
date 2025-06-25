@@ -18,6 +18,7 @@ useSeoMeta({
 import {store} from "~/stores/store.js";
 import Modal from "~/components/modal.vue";
 import ImageSlide from "~/components/imageSlide.vue";
+import Stars from "~/components/stars.vue";
 
 const s = store();
 
@@ -25,9 +26,7 @@ onMounted(() => {
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-
 	gtag('config', 'G-BXCJGLTK17');
-
 	document.querySelectorAll('.openInModal').forEach(x => {
 		x.addEventListener('click', (e) => {
 			if (x.attributes.href?.value){
@@ -42,23 +41,21 @@ onMounted(() => {
 <template>
 	<div data-bs-theme="dark" class="app position-relative">
 		<Navbar></Navbar>
-		<div class="d-flex flex-column gap-5 overflow-y-hidden contentContainer">
-			<div class="container blurIn">
+
+		<div class="d-flex flex-column gap-5 overflow-y-hidden contentContainer position-relative" style="z-index: 100">
+			<div class="container blurIn position-relative">
 				<div class="mb-5 d-flex flex-column align-items-center text-center d-flex flex-column gap-3"
 				     style="margin-top: 8vh">
 					<h1 class="display-1 fw-bold wgdLogo mb-0">
 						WGDashboard
 					</h1>
-
 					<p class="text-muted mb-0">
 						Made with Python, Vue.js and with <i class="bi bi-heart-fill mx-1"></i> since October 18, 2020
 					</p>
 					<a href="https://hitscounter.dev">
 						<img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fwgdashboard.dev&label=Visitors&icon=eye-fill&color=%23198754" alt="Visitor Count">
 					</a>
-
 					<a target="_blank"
-
 					   href="https://docs.wgdashboard.dev/install.html" class="btn bg-primary-subtle rounded-4 border-primary-subtle px-4 py-3 shadow fw-bold openInModal">
 						<i class="bi bi-person-walking me-2"></i>
 						Get Started
@@ -66,9 +63,7 @@ onMounted(() => {
 				</div>
 				<div class="mb-5 position-relative">
 					<ImageSlide></ImageSlide>
-
 				</div>
-
 				<div class="d-flex align-items-center gap-2 flex-column flex-sm-row">
 					<h5 class="fw-normal mb-sm-0 text-center text-sm-start">
 						Want to try it out before install?<br>
@@ -80,7 +75,9 @@ onMounted(() => {
 						Access Demo
 					</a>
 				</div>
+
 			</div>
+
 			<hr>
 			<div class="container d-flex flex-column gap-4 blurIn">
 				<h1 class="display-5 fw-bold">So,<br>what is WGDashboard?</h1>
@@ -92,7 +89,8 @@ onMounted(() => {
 				<hr>
 				<OperatingSystem></OperatingSystem>
 			</div>
-
+			<hr>
+			<Stars style="z-index: 0"></Stars>
 			<hr>
 			<Sponsors></Sponsors>
 			<hr>

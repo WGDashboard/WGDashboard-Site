@@ -40,4 +40,4 @@ export default defineCronHandler('hourly', async () => {
         await useStorage('local').set('starHistory', newStars)
         console.log("Stars Refreshed")
     }
-}, { runOnInit: false })
+}, { runOnInit: true })

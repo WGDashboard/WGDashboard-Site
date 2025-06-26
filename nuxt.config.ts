@@ -22,6 +22,11 @@ export default defineNuxtConfig({
                 {
                     src: "https://www.googletagmanager.com/gtag/js?id=G-BXCJGLTK17",
                     async: true
+                },
+                {
+                    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2283617751904576',
+                    crossorigin: 'anonymous',
+                    async: true
                 }
             ],
             link: [

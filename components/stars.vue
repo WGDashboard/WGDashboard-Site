@@ -44,7 +44,7 @@ const chartOption = computed(() => {
 		scales: {
 			x: {
 				border: {
-					display: true
+					display: false
 				},
 				ticks: {
 					display: false,
@@ -55,6 +55,9 @@ const chartOption = computed(() => {
 				},
 			},
 			y:{
+				border: {
+					display: false
+				},
 				ticks: {
 					display: false,
 				},
@@ -75,7 +78,7 @@ const chartKeys = computed(() => {
 				borderColor: '#ffffff',
 				backgroundColor: '#ffffff30',
 				fill: 'start',
-				pointRadius: 0,
+				pointRadius: [...starsData.value.values].map((_, i) => i === [...starsData.value.values].length - 1 ? 8 : 0),
 				borderWidth: 3,
 			}
 		]
@@ -94,7 +97,7 @@ onMounted(async () => {
 
 <template>
 <div class="chart w-100 position-relative container">
-	<div class="position-absolute top-0 start-0 w-100 h-100 z-3">
+	<div class="position-absolute top-0 start-0 w-100 h-100 z-3 container">
 		<h1 class="display-5 fw-bold ">
 			<span class="wgdLogo fw-bold">
 				{{ chartKeys.datasets[0].data[chartKeys.datasets[0].data.length - 1] }}
@@ -103,6 +106,11 @@ onMounted(async () => {
 		<h4 class="fw-normal">
 			since December 16th, 2020
 		</h4>
+		<a target="_blank"
+		   href="https://github.com/donaldzou/WGDashboard/stargazers" class="btn bg-primary-subtle rounded-4 border-primary-subtle fw-bold mt-2">
+			<i class="bi bi-star-fill me-2"></i>
+			Star This Project!
+		</a>
 	</div>
 	<Line
 		style="width: 100%; height: 400px;"
@@ -114,5 +122,8 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-
+span{
+	filter: brightness(1.3) saturate(2.5);
+	text-shadow: 0 0px 1rem #ffffff73;
+}
 </style>

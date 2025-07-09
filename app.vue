@@ -114,7 +114,7 @@ onMounted(() => {
 				<ins class="adsbygoogle"
 				     style="display:block"
 				     data-ad-client="ca-pub-2283617751904576"
-				     data-ad-slot="4115572421"
+				     data-ad-slot="1927542722"
 				     data-ad-format="auto"
 				     data-full-width-responsive="true"></ins>
 			</div>

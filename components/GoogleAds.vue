@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps(['width', 'height'])
+const props = defineProps(['width', 'height', 'dataAdSlot'])
 
 onMounted(() => {
 	if (import.meta.client && window.adsbygoogle) {
@@ -19,7 +19,7 @@ onMounted(() => {
 		     style="display:block"
 		     :style="{width: width, height: height}"
 		     data-ad-client="ca-pub-2283617751904576"
-		     data-ad-slot="4115572421"></ins>
+		     :data-ad-slot="dataAdSlot"></ins>
 	</div>
 </template>
 

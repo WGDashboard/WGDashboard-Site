@@ -69,14 +69,6 @@ onMounted(() => {
 						Get Started
 					</a>
 				</div>
-				<div class="w-100 mb-2">
-					<ins class="adsbygoogle"
-					     style="display:block"
-					     data-ad-client="ca-pub-2283617751904576"
-					     data-ad-slot="4115572421"
-					     data-ad-format="auto"
-					     data-full-width-responsive="true"></ins>
-				</div>
 				<div class="mb-5 position-relative">
 					<ImageSlide></ImageSlide>
 				</div>
@@ -91,7 +83,14 @@ onMounted(() => {
 						Access Demo
 					</a>
 				</div>
-
+				<div class="w-100 mb-2 text-center mt-2" style="max-height: 150px">
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-2283617751904576"
+					     data-ad-slot="4115572421"
+					     data-ad-format="auto"
+					     data-full-width-responsive="true"></ins>
+				</div>
 			</div>
 
 			<hr>

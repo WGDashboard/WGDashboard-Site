@@ -83,13 +83,11 @@ onMounted(() => {
 						Access Demo
 					</a>
 				</div>
-				<div class="w-100 mb-2 text-center mt-2" style="max-height: 150px">
+				<div class="w-100 text-center my-3">
 					<ins class="adsbygoogle"
-					     style="display:block"
+					     style="display:inline-block;width:728px;height:90px"
 					     data-ad-client="ca-pub-2283617751904576"
-					     data-ad-slot="4115572421"
-					     data-ad-format="auto"
-					     data-full-width-responsive="true"></ins>
+					     data-ad-slot="4115572421"></ins>
 				</div>
 			</div>
 
@@ -110,6 +108,12 @@ onMounted(() => {
 			<Sponsors></Sponsors>
 			<hr>
 			<ReachOut></ReachOut>
+			<div class="w-100 text-center my-3">
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:728px;height:90px"
+				     data-ad-client="ca-pub-2283617751904576"
+				     data-ad-slot="4115572421"></ins>
+			</div>
 			<div class="py-3">
 				<div class="container text-center">
 					<small class="text-muted">2020 - 2025  &copy;  WGDashboard</small>

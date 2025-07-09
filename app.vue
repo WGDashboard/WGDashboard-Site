@@ -27,13 +27,7 @@ onMounted(() => {
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 	gtag('config', 'G-BXCJGLTK17');
-	if (import.meta.client && window.adsbygoogle) {
-		try {
-			(window.adsbygoogle = window.adsbygoogle || []).push({});
-		} catch (e) {
-			console.error('AdSense error:', e);
-		}
-	}
+
 
 	document.querySelectorAll('.openInModal').forEach(x => {
 		x.addEventListener('click', (e) => {
@@ -83,16 +77,8 @@ onMounted(() => {
 						Access Demo
 					</a>
 				</div>
-				<div class="w-100 text-center my-3">
-					<ins class="adsbygoogle"
-					     style="display:block"
-					     data-ad-client="ca-pub-2283617751904576"
-					     data-ad-slot="4115572421"
-					     data-ad-format="auto"
-					     data-full-width-responsive="true"></ins>
-				</div>
+				<GoogleAds width="100%" height="150px" class="mt-5"></GoogleAds>
 			</div>
-
 			<hr>
 			<div class="container d-flex flex-column gap-4 blurIn">
 				<h1 class="display-5 fw-bold">So,<br>what is WGDashboard?</h1>
@@ -110,14 +96,7 @@ onMounted(() => {
 			<Sponsors></Sponsors>
 			<hr>
 			<ReachOut></ReachOut>
-			<div class="w-100 text-center my-3">
-				<ins class="adsbygoogle"
-				     style="display:block"
-				     data-ad-client="ca-pub-2283617751904576"
-				     data-ad-slot="1927542722"
-				     data-ad-format="auto"
-				     data-full-width-responsive="true"></ins>
-			</div>
+
 			<div class="py-3">
 				<div class="container text-center">
 					<small class="text-muted">2020 - 2025  &copy;  WGDashboard</small>

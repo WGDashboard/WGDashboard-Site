@@ -85,9 +85,11 @@ onMounted(() => {
 				</div>
 				<div class="w-100 text-center my-3">
 					<ins class="adsbygoogle"
-					     style="display:inline-block;width:728px;height:90px"
+					     style="display:block"
 					     data-ad-client="ca-pub-2283617751904576"
-					     data-ad-slot="4115572421"></ins>
+					     data-ad-slot="4115572421"
+					     data-ad-format="auto"
+					     data-full-width-responsive="true"></ins>
 				</div>
 			</div>
 
@@ -110,9 +112,11 @@ onMounted(() => {
 			<ReachOut></ReachOut>
 			<div class="w-100 text-center my-3">
 				<ins class="adsbygoogle"
-				     style="display:inline-block;width:728px;height:90px"
+				     style="display:block"
 				     data-ad-client="ca-pub-2283617751904576"
-				     data-ad-slot="4115572421"></ins>
+				     data-ad-slot="4115572421"
+				     data-ad-format="auto"
+				     data-full-width-responsive="true"></ins>
 			</div>
 			<div class="py-3">
 				<div class="container text-center">

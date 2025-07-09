@@ -27,6 +27,14 @@ onMounted(() => {
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 	gtag('config', 'G-BXCJGLTK17');
+	if (import.meta.client && window.adsbygoogle) {
+		try {
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
+		} catch (e) {
+			console.error('AdSense error:', e);
+		}
+	}
+
 	document.querySelectorAll('.openInModal').forEach(x => {
 		x.addEventListener('click', (e) => {
 			if (x.attributes.href?.value){
@@ -60,6 +68,14 @@ onMounted(() => {
 						<i class="bi bi-person-walking me-2"></i>
 						Get Started
 					</a>
+				</div>
+				<div class="w-100 mb-2">
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-2283617751904576"
+					     data-ad-slot="4115572421"
+					     data-ad-format="auto"
+					     data-full-width-responsive="true"></ins>
 				</div>
 				<div class="mb-5 position-relative">
 					<ImageSlide></ImageSlide>

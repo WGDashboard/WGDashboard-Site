@@ -4,7 +4,7 @@ const props = defineProps(['width', 'height', 'dataAdSlot'])
 onMounted(() => {
 	if (import.meta.client && window.adsbygoogle) {
 		try {
-			(adsbygoogle = window.adsbygoogle || []).push({});
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
 			console.log("Loaded GoogleAds")
 		} catch (e) {
 			console.error('AdSense error:', e);

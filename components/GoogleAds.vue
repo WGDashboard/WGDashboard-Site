@@ -17,6 +17,7 @@ onMounted(() => {
 	<div>
 		<ins class="adsbygoogle"
 		     style="display:block"
+		     data-full-width-responsive="true"
 		     :style="{width: width, height: height}"
 		     data-ad-client="ca-pub-2283617751904576"
 		     :data-ad-slot="dataAdSlot"></ins>

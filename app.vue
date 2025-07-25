@@ -19,6 +19,7 @@ import {store} from "~/stores/store.js";
 import Modal from "~/components/modal.vue";
 import ImageSlide from "~/components/imageSlide.vue";
 import Stars from "~/components/stars.vue";
+import Showcases from "~/components/showcases.vue";
 
 const s = store();
 
@@ -93,7 +94,11 @@ onMounted(() => {
 			<hr>
 			<Stars style="z-index: 0"></Stars>
 			<hr>
+			<Showcases></Showcases>
+			<hr>
 			<Sponsors></Sponsors>
+
+
 			<hr>
 			<ReachOut></ReachOut>
 

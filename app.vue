@@ -78,7 +78,6 @@ onMounted(() => {
 						Access Demo
 					</a>
 				</div>
-				<GoogleAds width="100%" height="200px" class="mt-5" data-ad-slot="1927542722"></GoogleAds>
 			</div>
 			<hr>
 			<div class="container d-flex flex-column gap-4 blurIn">

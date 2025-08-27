@@ -34,7 +34,6 @@ $fetch("/api/sponsors").then(res => {
 		<h4 class="fw-normal">
 			from GitHub. <strong>Thank you all!</strong>
 		</h4>
-		<GoogleAds width="100%" height="200px" class="mt-3" data-ad-slot="4115572421"></GoogleAds>
 	</div>
 </template>
 

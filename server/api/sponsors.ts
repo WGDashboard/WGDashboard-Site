@@ -5,7 +5,7 @@ export default defineEventHandler(async (event) => {
             user(login: "donaldzou") {
                 sponsorshipsAsMaintainer(
                     activeOnly: false, 
-                    first: 10,
+                    first: 100,
                     orderBy: { field: CREATED_AT, direction: ASC }
                 ) {
                     totalCount

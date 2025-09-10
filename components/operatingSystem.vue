@@ -53,7 +53,7 @@
 							Proxmox
 						</h5>
 						<p class="text-muted mb-0">
-							Proxmox community got a script to run WGDashboard
+							Proxmox VE Helper-Scripts made a script to install and run WGDashboard with
 						</p>
 					</div>
 				</a>

@@ -7,7 +7,7 @@ const showcases = ref([
 		origin: 'YouTube'
 	},
 	{
-		url: 'https://player.bilibili.com/player.html?isOutside=true&aid=113334590377944&bvid=BV1CMCfY9Ek7&cid=26367495763&p=1',
+		url: 'https://player.bilibili.com/player.html?isOutside=true&aid=113334590377944&bvid=BV1CMCfY9Ek7&cid=26367495763&p=1&autoplay=0',
 		title: '从零开始：WGDashboard面板介绍、安装与WireGuard管理全攻略',
 		author: '抓單的灰太狼',
 		origin: 'Bilibili'
@@ -49,7 +49,7 @@ const showcases = ref([
 				     style="aspect-ratio: 16/9">
 					<h6 class="m-auto text-center">
 						<span class="spinner-border mb-3"></span><br>
-						Loading for more...
+						Loading more videos...
 					</h6>
 				</div>
 			</div>

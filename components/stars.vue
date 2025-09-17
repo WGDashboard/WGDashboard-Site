@@ -1,5 +1,5 @@
 <script setup lang="ts" async>
-import { Line } from 'vue-chartjs'
+import { Line, Bar } from 'vue-chartjs'
 import {
 	Chart,
 	LineElement,
@@ -80,6 +80,7 @@ const chartKeys = computed(() => {
 				fill: 'start',
 				pointRadius: [...starsData.value.values].map((_, i) => i === [...starsData.value.values].length - 1 ? 8 : 0),
 				borderWidth: 3,
+				tension: 0,
 			}
 		]
 	}
@@ -101,7 +102,7 @@ onMounted(async () => {
 		<h1 class="display-5 fw-bold ">
 			<span class="wgdLogo fw-bold">
 				{{ chartKeys.datasets[0].data[chartKeys.datasets[0].data.length - 1] }}
-			</span> GitHub Stars
+			</span> GitHub Stars <i class="bi bi-star-fill"></i>
 		</h1>
 		<h4 class="fw-normal">
 			since December 16th, 2020

@@ -49,7 +49,7 @@ const showcases = ref([
 				     style="aspect-ratio: 16/9">
 					<h6 class="m-auto text-center">
 						<span class="spinner-border mb-3"></span><br>
-						Loading for more...
+						Loading more videos...
 					</h6>
 				</div>
 			</div>

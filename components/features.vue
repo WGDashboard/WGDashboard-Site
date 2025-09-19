@@ -5,7 +5,7 @@
 <template>
 <div class="d-flex gap-3 flex-column">
 	<h4 class="fw-normal">
-		It is good at doing
+		What is it good at? This!
 	</h4>
 	<div class="d-flex gap-4 mb-2">
 		<div>
@@ -30,10 +30,11 @@
 		</div>
 		<div>
 			<h5>
-				Simple UI with 2-steps verification
+				Simple UI with Multi-Factor Authentication (MFA/2FA) verification
 			</h5>
 			<p class="text-muted mb-0">
-				You will only see the most important information on the UI; Optional to enable 2-steps verification with TOTP, works with most authenticator on the market
+			You will only see the most important information on the UI;<br>
+			Optional MFA-verification with TOTP, works with most authenticator apps on the market.
 			</p>
 		</div>
 	</div>
@@ -48,17 +49,17 @@
 				Manage configurations and peers
 			</h5>
 			<ul>
-				<li>Add Peers or by bulk with auto-generated information</li>
+				<li>Add single or multiple peers with auto-generated information</li>
 				<li>Edit peer information</li>
 				<li>Restrict / Delete peers</li>
 				<li>Share peer QR code, an URL or Email</li>
-				<li>Schedule jobs to delete / restrict peer when conditions are met</li>
+				<li>Schedule jobs to delete / restrict peer when set conditions are met</li>
 			</ul>
 		</div>
 	</div>
 	<div>
 		<h5>
-			... and much more for you to discover
+			... and much much more! Try it out and discover it yourself!
 		</h5>
 	</div>
 </div>

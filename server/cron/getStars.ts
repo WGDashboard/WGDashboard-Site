@@ -9,7 +9,7 @@ export default defineCronHandler('hourly', async () => {
     }
 
     let newStars: Array<Object> = []
-    const generalInformation = await axios.get("https://api.github.com/repos/donaldzou/WGDashboard", {
+    const generalInformation = await axios.get("https://api.github.com/repos/WGDashboard/WGDashboard", {
         headers: {
             'Content-Type': 'application/json',
             "Authorization": `bearer ${process.env.GITHUB_TOKEN}`
@@ -21,9 +21,9 @@ export default defineCronHandler('hourly', async () => {
         const numberOfPages = Math.ceil(generalInformation.data.watchers / perPage)
         console.log(numberOfPages)
         for (let page = 1; page <= numberOfPages; page++){
-            console.log(`https://api.github.com/repos/donaldzou/WGDashboard/stargazers?per_page=${perPage}&page=${page}`)
+            console.log(`https://api.github.com/repos/WGDashboard/WGDashboard/stargazers?per_page=${perPage}&page=${page}`)
             const s = await axios.get(
-            	`https://api.github.com/repos/donaldzou/WGDashboard/stargazers?per_page=${perPage}&page=${page}`,
+            	`https://api.github.com/repos/WGDashboard/WGDashboard/stargazers?per_page=${perPage}&page=${page}`,
             	{
             		headers: {
                         'Accept': 'application/vnd.github.star+json',

@@ -69,8 +69,8 @@ onMounted(() => {
 				</div>
 				<div class="d-flex align-items-center gap-2 flex-column flex-sm-row">
 					<h5 class="fw-normal mb-sm-0 text-center text-sm-start">
-						Want to try it out before install?<br>
-						<small class="text-muted">Username and password as <code>admin</code></small>
+						Want to try it out before you install?<br>
+						<small class="text-muted">Username and password are <code>admin</code></small>
 					</h5>
 <!--					<a href="https://demo.wgdashboard.dev"-->
 <!--					   target="_blank"-->
@@ -88,7 +88,7 @@ onMounted(() => {
 			<div class="container d-flex flex-column gap-4 blurIn">
 				<h1 class="display-5 fw-bold">So,<br>what is WGDashboard?</h1>
 				<h4 class="fw-normal">
-					WGDashboard is a simple and easy-to-use dashboard to manager your <strong>WireGuard & AmneziaWG VPN</strong>.
+					WGDashboard is a simple and easy-to-use dashboard to manage your <strong>WireGuard & AmneziaWG VPN Server(s)</strong>.
 				</h4>
 				<hr>
 				<Features></Features>

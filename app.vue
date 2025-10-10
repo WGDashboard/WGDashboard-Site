@@ -72,16 +72,16 @@ onMounted(() => {
 						Want to try it out before you install?<br>
 						<small class="text-muted">Username and password are <code>admin</code></small>
 					</h5>
-<!--					<a href="https://demo.wgdashboard.dev"-->
-<!--					   target="_blank"-->
-<!--					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow">-->
-<!--						Access Demo-->
-<!--					</a>-->
-					<a
+					<a href="https://demo.wgdashboard.dev"
 					   target="_blank"
-					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow disabled">
-						Demo is down due to maintenance, will be back soon!
+					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow">
+						Access Demo
 					</a>
+<!--					<a-->
+<!--					   target="_blank"-->
+<!--					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow disabled">-->
+<!--						Demo is down due to maintenance, will be back soon!-->
+<!--					</a>-->
 				</div>
 			</div>
 			<hr>

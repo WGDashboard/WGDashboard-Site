@@ -28,6 +28,7 @@ body{
 
 .app{
     color: var(--bs-body-color);
+
 }
 
 @property --bgdegree{

@@ -77,11 +77,29 @@ onMounted(() => {
 					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow">
 						Access Demo
 					</a>
-<!--					<a-->
-<!--					   target="_blank"-->
-<!--					   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow disabled">-->
-<!--						Demo is down due to maintenance, will be back soon!-->
-<!--					</a>-->
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<p class="">
+					To help us better understand and improve WGDashboard’s performance, we’re launching the
+				</p>
+				<h1 class="mb-4">
+					<strong>WGDashboard Testing Program</strong>
+				</h1>
+				<p>
+					As part of this program, participants will receive free WireGuard VPN access to our server in <strong>Toronto, Canada</strong> hosting on <strong>DigitalOcean</strong>, valid for <strong>24 hours</strong> or up to <strong>1GB of total traffic</strong>—whichever comes first.
+				</p>
+				<p>
+					Click the button below for more information.
+				</p>
+				<a href="https://wg.wgdashboard.dev"
+				   target="_blank"
+				   class="btn bg-primary-subtle rounded-4 border-primary-subtle ms-sm-auto px-4 py-3 shadow">
+					Join WGD Testing Program
+				</a>
+				<div class="mt-4 text-muted">
+					<small>Updated @ Oct 28, 2025</small>
 				</div>
 			</div>
 			<hr>

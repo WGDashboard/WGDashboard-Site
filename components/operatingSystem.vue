@@ -27,8 +27,7 @@
 				</a>
 			</div>
 			<div class="col-sm">
-				<a href=https://docs.wgdashboard.dev/install/Docker.html"
-				   target="_blank" class="card rounded-4 shadow">
+				<a href="https://docs.wgdashboard.dev/install/Docker.html" target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
 							<i class="bi bi-cloud-fill"></i>

@@ -10,7 +10,7 @@
 		<div class="row g-2">
 			<div class="col-sm-12">
 				<a
-					href="https://docs.wgdashboard.dev/install.html#option-2-install-wgdashboard-with-a-command"
+					href="https://docs.wgdashboard.dev/install/#option-3-install-wgdashboard-with-a-command"
 					target="_blank"
 					class="card rounded-4 text-center shadow openInModal">
 					<div class="card-body p-4">
@@ -27,7 +27,7 @@
 				</a>
 			</div>
 			<div class="col-sm">
-				<a href="https://github.com/donaldzou/WGDashboard/blob/main/docker/README.md"
+				<a href=https://docs.wgdashboard.dev/install/Docker.html"
 				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>

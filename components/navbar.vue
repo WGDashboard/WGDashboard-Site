@@ -25,7 +25,7 @@ onMounted(() => {
 					<a class="nav-link"
 					   target="_blank"
 					   aria-label="Documentation"
-					   href="https://docs.wgdashboard.dev/index_topic.html">
+					   href="https://docs.wgdashboard.dev/">
 						<i class="bi bi-book-fill me-2"></i>
 						<span>Documentation</span>
 					</a>
@@ -34,7 +34,7 @@ onMounted(() => {
 					<a class="nav-link"
 					   target="_blank"
 					   aria-label="APIs"
-					   href="https://docs.wgdashboard.dev/api-documentation.html">
+					   href="https://docs.wgdashboard.dev/api/">
 						<i class="bi bi-key-fill me-2"></i>
 						<span>APIs</span>
 					</a>

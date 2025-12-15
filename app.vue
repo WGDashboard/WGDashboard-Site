@@ -59,7 +59,7 @@ onMounted(() => {
 						<img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fwgdashboard.dev&label=Visitors&icon=eye-fill&color=%23198754" alt="Visitor Count">
 					</a>
 					<a target="_blank"
-					   href="https://docs.wgdashboard.dev/install.html" class="btn bg-primary-subtle rounded-4 border-primary-subtle px-4 py-3 shadow fw-bold openInModal">
+					   href="https://docs.wgdashboard.dev/install/" class="btn bg-primary-subtle rounded-4 border-primary-subtle px-4 py-3 shadow fw-bold openInModal">
 						<i class="bi bi-person-walking me-2"></i>
 						Get Started
 					</a>

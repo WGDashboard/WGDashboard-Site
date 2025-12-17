@@ -49,7 +49,7 @@ const otherSponsors = [
 		</h4>
 		<div class="row g-2">
 			<div class="col-sm">
-				<a href="https://github.com/sponsors/donaldzou"
+				<a href="https://github.com/sponsors/WGDashboard"
 				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
@@ -62,45 +62,18 @@ const otherSponsors = [
 				</a>
 			</div>
 			<div class="col-sm">
-				<a href="https://buymeacoffee.com/donaldzou"
+				<a href="https://opencollective.com/wgdashboard"
 				   target="_blank" class="card rounded-4 shadow">
 					<div class="card-body text-center p-4">
 						<h1>
-							<i class="bi bi-cup-fill"></i>
+							<i class="bi bi-opencollective"></i>
 						</h1>
 						<h5 class="mb-0">
-							Buy Me a Coffee
+							Open Collective
 						</h5>
 					</div>
 				</a>
 			</div>
-			<div class="col-sm">
-				<a href="https://patreon.com/c/DonaldDonnyZou/membership"
-				   target="_blank" class="card rounded-4 shadow">
-					<div class="card-body text-center p-4">
-						<h1>
-							<i class="bi bi-bell-fill"></i>
-						</h1>
-						<h5 class="mb-0">
-							Patreon
-						</h5>
-					</div>
-				</a>
-			</div>
-			<div class="col-sm">
-				<a href="https://www.paypal.me/donaldzou"
-				   target="_blank" class="card rounded-4 shadow">
-					<div class="card-body text-center p-4">
-						<h1>
-							<i class="bi bi-paypal"></i>
-						</h1>
-						<h5 class="mb-0">
-							PayPal
-						</h5>
-					</div>
-				</a>
-			</div>
-
 		</div>
 		<h4 class="fw-normal">
 			Thank you in advance!

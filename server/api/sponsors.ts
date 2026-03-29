@@ -21,6 +21,26 @@ export default defineEventHandler(async (event) => {
                         }
                     }
                 }
+            },
+            organization(login: "WGDashboard") {
+                sponsorshipsAsMaintainer(
+                    activeOnly: false, 
+                    first: 100,
+                    orderBy: { field: CREATED_AT, direction: ASC }
+                ) {
+                    totalCount
+                    nodes {
+                        sponsorEntity {
+                            ... on User {
+                                login,
+                                avatarUrl
+                            }
+                            ... on Organization {
+                                login
+                            }
+                        }
+                    }
+                }
             }
         }
     `

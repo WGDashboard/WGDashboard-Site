@@ -4,7 +4,7 @@ import Stars from "~/components/stars.vue";
 
 const githubSponsors = ref([])
 $fetch("/api/sponsors").then(res => {
-	githubSponsors.value = res.data.user.sponsorshipsAsMaintainer.nodes
+	githubSponsors.value = [...res.data.user.sponsorshipsAsMaintainer.nodes, ...res.data.organization.sponsorshipsAsMaintainer.nodes]
 })
 const otherSponsors = [
 	"mondster2170"
